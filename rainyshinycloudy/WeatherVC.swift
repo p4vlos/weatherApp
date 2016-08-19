@@ -56,10 +56,10 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
             Location.sharedInstance.longitude = currentLocation.coordinate.longitude
             currentWeather.downloadWeatherDeatails {
                 //Setup UI to load downloaded data
-                self.downloadForecastData {
+               // self.downloadForecastData {
                     self.updateMainUI()
                     
-                }
+                //}
             }
         } else {
             locationManager.requestWhenInUseAuthorization()
@@ -69,7 +69,8 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
     
     func downloadForecastData(completed: DownloadComplete) {
         //downloading forecast weather data for TableView
-        Alamofire.request(.GET, FORECAST_URL).responseJSON { response in
+        Alamofire.request(FORECAST_URL, withMethod: .get, parameters: nil, encoding: .url, headers: nil).responseJSON { response in
+        //Alamofire.request(.GET, FORECAST_URL).responseJSON { response in
             let result = response.result
             
             if let dict = result.value as? Dictionary<String, AnyObject> {
