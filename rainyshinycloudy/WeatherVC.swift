@@ -56,10 +56,10 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
             Location.sharedInstance.longitude = currentLocation.coordinate.longitude
             currentWeather.downloadWeatherDeatails {
                 //Setup UI to load downloaded data
-               // self.downloadForecastData {
+                self.downloadForecastData {
                     self.updateMainUI()
                     
-                //}
+                }
             }
         } else {
             locationManager.requestWhenInUseAuthorization()

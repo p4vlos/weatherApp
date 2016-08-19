@@ -49,12 +49,44 @@
             endingLineNumber = "57"
             landmarkName = "downloadWeatherDeatails(completed:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rainyshinycloudy.CurrentWeather.downloadWeatherDeatails (completed : () -&gt; ()) -&gt; ()"
+                  moduleName = "rainyshinycloudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/iOS/rainyshinycloudy/rainyshinycloudy/CurrentWeather.swift"
+                  timestampString = "493306853.93247"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rainyshinycloudy.CurrentWeather.(downloadWeatherDeatails (completed : () -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "rainyshinycloudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/iOS/rainyshinycloudy/rainyshinycloudy/CurrentWeather.swift"
+                  timestampString = "493306853.934992"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "rainyshinycloudy/WeatherCell.swift"
@@ -67,49 +99,64 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rainyshinycloudy.WeatherCell.dayLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "rainyshinycloudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/iOS/rainyshinycloudy/rainyshinycloudy/WeatherCell.swift"
+                  timestampString = "493306806.056735"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "rainyshinycloudy.WeatherCell.dayLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
                   moduleName = "rainyshinycloudy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/ios/rainyshinycloudy/rainyshinycloudy/WeatherCell.swift"
-                  timestampString = "493304379.01461"
+                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/iOS/rainyshinycloudy/rainyshinycloudy/WeatherCell.swift"
+                  timestampString = "493306806.058165"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
                   endingLineNumber = "14"
-                  offsetFromSymbolStart = "42">
+                  offsetFromSymbolStart = "52">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "rainyshinycloudy.WeatherCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; rainyshinycloudy.WeatherCell"
                   moduleName = "rainyshinycloudy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/ios/rainyshinycloudy/rainyshinycloudy/WeatherCell.swift"
-                  timestampString = "493304379.016559"
+                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/iOS/rainyshinycloudy/rainyshinycloudy/WeatherCell.swift"
+                  timestampString = "493306806.05955"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
                   endingLineNumber = "14"
-                  offsetFromSymbolStart = "155">
+                  offsetFromSymbolStart = "152">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "rainyshinycloudy.WeatherCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;rainyshinycloudy.WeatherCell&gt;"
                   moduleName = "rainyshinycloudy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/ios/rainyshinycloudy/rainyshinycloudy/WeatherCell.swift"
-                  timestampString = "493304379.018607"
+                  urlString = "file:///Users/pavlosnicolaou/OneDrive/Documents/DevSlopes/workshop/iOS/rainyshinycloudy/rainyshinycloudy/WeatherCell.swift"
+                  timestampString = "493306806.060885"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
                   endingLineNumber = "14"
-                  offsetFromSymbolStart = "88">
+                  offsetFromSymbolStart = "96">
                </Location>
             </Locations>
          </BreakpointContent>

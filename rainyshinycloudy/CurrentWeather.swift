@@ -54,7 +54,7 @@ class CurrentWeather {
         
         //Alamofire download
         
-        Alamofire.request(CURRENT_WEATHER_URL, withMethod: .get, parameters: nil, encoding: .url, headers: nil).responseJSON { response in
+        Alamofire.request(FORECAST_URL, withMethod: .get, parameters: nil, encoding: .url, headers: nil).responseJSON { response in
         //Alamofire.request(.GET, CURRENT_WEATHER_URL).responseJSON { response in
             let result = response.result
             //print(response)
